@@ -1,4 +1,33 @@
 /.catkin_workspace
-/.venv
-/build
-/devel
+/.venv/
+/build/
+/devel/
+/devel_isolated/
+/install/
+/log/
+/map/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ROS and Gazebo runtime logs
+*.log
+*.bag
+*.bag.active
+
+# Keep common generated metadata out of version control
+cmake-build-*/
+compile_commands.json
