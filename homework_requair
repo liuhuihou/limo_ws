@@ -1,0 +1,24 @@
+
+
+You need to run these on both the simulation and limo vehicles, and then compare the different configurations and other contents that you think should be included in the report.
+
+Use the ROS Navigation Stack to complete autonomous navigation in the given map environment. Run the following three navigation configurations and compare their navigation performance:
+
+1. Default global planner + DWA local planner
+2. Default global planner + TEB local planner
+3. A* global planner + TEB local planner
+
+You need to run these configurations in both the simulation environment and on the LIMO vehicle. Use RViz 2D Nav Goal to assign navigation targets and record the navigation results.
+
+Refer to:
+https://github.com/Intelligent-Robot-Course/Intelligent-Robots-Lab/tree/main/LAB10
+for more details.
+
+A lab report is required, which should include but is not limited to the following aspects:
+
+- Screenshots or videos of the navigation results for the three configurations.
+- A brief comparison of their performance, such as path smoothness, navigation stability, obstacle avoidance behavior, and whether the robot can successfully reach the goal.
+- A short explanation of the basic ideas of DWA, TEB, and A*/Dijkstra global planning.
+- A brief discussion of the difference between simulation and LIMO vehicle results.
+- Any parameter adjustments you made and how they affected the navigation behavior.
+- Your conclusion and personal insights from this lab.
