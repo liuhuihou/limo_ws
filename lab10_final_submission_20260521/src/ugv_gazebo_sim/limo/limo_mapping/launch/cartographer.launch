@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="scan_topic" default="/limo/scan"/>
+  <param name="use_sim_time" value="true"/>
+
+  <!--
+    Compatibility entry point for the original lab flow.
+    cartographer_ros is not included in this workspace, so this launch
+    file falls back to the working gmapping backend.
+  -->
+  <include file="$(find limo_mapping)/launch/gmapping.launch">
+    <arg name="scan_topic" value="$(arg scan_topic)"/>
+  </include>
+</launch>
