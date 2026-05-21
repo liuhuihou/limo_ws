@@ -1,11 +1,13 @@
+# Catkin / workspace outputs
 /.catkin_workspace
+/.catkin_tools/
 /.venv/
 /build/
 /devel/
 /devel_isolated/
 /install/
 /log/
-/map/
+/logs/
 
 # Python caches
 __pycache__/
@@ -27,6 +29,9 @@ __pycache__/
 *.log
 *.bag
 *.bag.active
+*.orig
+*.rej
+*.bak
 
 # Keep common generated metadata out of version control
 cmake-build-*/
